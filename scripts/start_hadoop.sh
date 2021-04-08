@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd ./scripts/
 # python3 ./generator_logs.py --start-date 01.01.2020 --end-date 25.05.2021
 docker rm -f hadoop
 docker rmi custom_centos:latest
